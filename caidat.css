@@ -1,0 +1,167 @@
+body{
+    display: flex;
+    margin: 0;
+}
+
+/* CSS cho sidebar */
+
+.sidebar{
+    width: 25%;
+    height: 100vh;
+    min-width: 238px;
+    font-size: 1.4rem;
+    background-color: var(--green-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar__back{
+    width: 80%;
+    color: var(--white-color);
+    padding: 20px 0 20px 0;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+/* .sidebar__back__arrow:hover{
+    cursor: pointer;
+}
+
+.sidebar__back__arrow--back{
+    color: var(--white-color)
+}
+
+.sidebar__back__text:hover{
+    cursor: default;
+} */
+
+.sidebar__icon__link{
+    color: var(--white-color);
+    font-size: 2.0rem;
+}
+
+.sidebar__option{
+    width: 80%;
+    height: 60%;
+    min-width: 185px;
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* DÙNG VỚI BUTTON NHƯNG KHÔNG TỐI ƯU VÌ PHẢI NHẤP VÀO TẬN CHỮ MỚI CÓ THỂ CHUYỂN
+    .btn{
+    width: 85%;
+    height: 47px;
+    background-color: transparent;
+    border: 1px solid var(--beige-color);
+    border-radius: 50px;
+    color: var(--white-color);
+}
+
+.btn:hover{
+    background-color: var(--beige-color);
+    color: var(--green-color);
+    cursor: pointer;
+} */
+
+/* Làm thuộc tính hover khi nhấp vào box */
+
+.sidebar__op_text{
+    width: 85%;
+    height: 47px;
+    background-color: transparent;
+    border: 1px solid var(--beige-color);
+    border-radius: 50px;
+    color: var(--white-color);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar__op_text:hover{
+    background-color: var(--beige-color);
+    color: var(--green-color);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.sidebar__icon{
+    width: 80%;
+    color: var(--white-color);
+    padding: 20px 0 20px 0;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.sidebar__icon__icon1:hover{
+    cursor: pointer;
+}
+
+.sidebar__icon__icon2:hover{
+    cursor: pointer;
+}
+
+/* CSS cho content */
+.content{
+    width: 75%;
+    height: 100vh;
+    min-width: 674px;
+    font-size: 1.4rem;
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__title{
+    width: 95%;
+    background-color: var(--white-color);
+    padding: 40px 20px 40px 20px;
+    font-size: 5.0rem;
+    font-weight: 600;
+    border-bottom: 1px solid var(--black-color);
+}
+
+.content__nd{
+    width: 95%;
+    flex: 1;
+    background-color: var(--white-color);
+    padding: 40px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    width: 100%;
+    background-color: var(--lightgreen-color);
+    border-radius: 50px;
+    margin-block: 10px;
+    
+}
+
+.box1{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.box2{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}

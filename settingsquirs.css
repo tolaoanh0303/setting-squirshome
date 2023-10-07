@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.setting{
+    display: flex;
+}
+/* CSS cho slide bar */
+.sidebar{
+    width: 25vw;
+    height: 100vh;
+    background-color: #76A77A;
+}
+.boxbao{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #cdd6cd; */
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.boxbao__backto{
+    width: 80%;
+    /* background-color: white; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.boxbao__option{
+    width: 80%;
+    height: calc(100vh - 40%);
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.boxbao__option__box{
+    width: 100%;
+    height: 45px;
+    max-width: 250px;
+    min-width: 70px;
+    padding: 10px;
+    border: 1px solid #EDF1D6;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxbao__homepro{
+    width: 80%;
+    /* background-color: white; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* CSS cho Nội dung bên phải */
+
+.benphai{
+    width: 75vw;
+    height: 100vh;
+    background-color: aquamarine;
+    background-position: top center;
+}
+
+.boxbaoto{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #ab9522; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-left: 40px;
+}
+
+.boxbaoto__tb__title{
+    width: 90%;
+    padding: 20px 20px 20px 0;
+    /* background-color: white; */
+    margin-top: 20px;
+    font-size: 50px;
+    border-bottom: 1px solid #333;
+    box-sizing: border-box;
+}
+
+.boxbaoto__tb__content{
+    width: 90%;
+    background-color: white;
+    flex: 1;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxbaoto__tb__content__box1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+}
+
+.boxbaoto__tb__content__box2{
+   margin-top: 40px;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 40px 0 40px;
+}
